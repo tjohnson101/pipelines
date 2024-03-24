@@ -23,7 +23,7 @@ global:
 
 pingaccess-admin:
   privateCert:
-    generate: true
+    generate: false
   enabled: true
   envs:
     # PingAccess Admin Console will receive the admin and engine profile.
