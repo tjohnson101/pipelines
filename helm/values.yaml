@@ -42,7 +42,7 @@ pingaccess-admin:
         timeoutSeconds: 600
 
 pingaccess-engine:
-  enabled: true
+  enabled: false
   envs:
     SERVER_PROFILE_PATH: profiles/pingaccess-engine
     PA_ENGINE_PROFILE_SHA: "${PINGACCESS_ENGINE_SHA}"
@@ -81,7 +81,7 @@ pingfederate-engine:
         cpu: 2
 
 pingdirectory:
-  enabled: true
+  enabled: false
   envs:
     SERVER_PROFILE_PATH: profiles/pingdirectory
     PD_PROFILE_SHA: "${PINGDIRECTORY_SHA}"
@@ -98,13 +98,13 @@ pingdirectory:
         memory: 2Gi
 
 pingdataconsole:
-  enabled: true
+  enabled: false
   envs:
     SERVER_PROFILE_PATH: profiles/pingdataconsole
     PDC_PROFILE_SHA: "${PINGDATACONSOLE_SHA}"
 
 pingauthorize:
-  enabled: true
+  enabled: false
   envs:
     SERVER_PROFILE_PATH: profiles/pingauthorize
     PAZ_PROFILE_SHA: "${PINGAUTHORIZE_SHA}"
