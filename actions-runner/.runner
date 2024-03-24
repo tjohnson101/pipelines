@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Thomass-MBP",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus7.actions.githubusercontent.com/qqkAGa6pb5xwvzeRIYp4XklGyFI1viKjbuYUokaME4AsHVh6S1/",
+  "gitHubUrl": "https://github.com/tjohnson101/pipelines",
+  "workFolder": "_work"
+}

@@ -1,0 +1,220 @@
+[2024-03-24 02:30:03Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:03Z INFO HostContext] Well known config file 'Credentials': '/Users/tjohnson/projects/pipelines/actions-runner/.credentials'
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:03Z INFO HostContext] Well known config file 'Runner': '/Users/tjohnson/projects/pipelines/actions-runner/.runner'
+[2024-03-24 02:30:03Z INFO Listener] Runner is built for OSX (Arm64) - osx-arm64.
+[2024-03-24 02:30:03Z INFO Listener] RuntimeInformation: Darwin 23.4.0 Darwin Kernel Version 23.4.0: Wed Feb 21 21:45:49 PST 2024; root:xnu-10063.101.15~2/RELEASE_ARM64_T6020.
+[2024-03-24 02:30:03Z INFO Listener] Version: 2.314.1
+[2024-03-24 02:30:03Z INFO Listener] Commit: 976290d966e6cc3e748a49bf8fdbe139ff764201
+[2024-03-24 02:30:03Z INFO Listener] Culture: en-US
+[2024-03-24 02:30:03Z INFO Listener] UI Culture: en-US
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:03Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:03Z INFO Listener] Validating directory permissions for: '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:03Z INFO CommandLineParser] Parse
+[2024-03-24 02:30:03Z INFO CommandLineParser] Parsing 5 args
+[2024-03-24 02:30:03Z INFO CommandLineParser] parsing argument
+[2024-03-24 02:30:03Z INFO CommandLineParser] HasArgs: False
+[2024-03-24 02:30:03Z INFO CommandLineParser] Adding Command: configure
+[2024-03-24 02:30:03Z INFO CommandLineParser] parsing argument
+[2024-03-24 02:30:03Z INFO CommandLineParser] HasArgs: True
+[2024-03-24 02:30:03Z INFO CommandLineParser] arg: url
+[2024-03-24 02:30:03Z INFO CommandLineParser] parsing argument
+[2024-03-24 02:30:03Z INFO CommandLineParser] HasArgs: True
+[2024-03-24 02:30:03Z INFO CommandLineParser] Adding option 'url': 'https://github.com/tjohnson101/pipelines'
+[2024-03-24 02:30:03Z INFO CommandLineParser] parsing argument
+[2024-03-24 02:30:03Z INFO CommandLineParser] HasArgs: True
+[2024-03-24 02:30:03Z INFO CommandLineParser] arg: token
+[2024-03-24 02:30:03Z INFO CommandLineParser] parsing argument
+[2024-03-24 02:30:03Z INFO CommandLineParser] HasArgs: True
+[2024-03-24 02:30:03Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-03-24 02:30:03Z INFO Listener] Arguments parsed
+[2024-03-24 02:30:04Z INFO Runner] ExecuteCommand
+[2024-03-24 02:30:04Z INFO ConfigurationStore] currentAssemblyLocation: /Users/tjohnson/projects/pipelines/actions-runner/bin/Runner.Listener.dll
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] binPath: /Users/tjohnson/projects/pipelines/actions-runner/bin
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] RootFolder: /Users/tjohnson/projects/pipelines/actions-runner
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:04Z INFO HostContext] Well known config file 'Runner': '/Users/tjohnson/projects/pipelines/actions-runner/.runner'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] ConfigFilePath: /Users/tjohnson/projects/pipelines/actions-runner/.runner
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:04Z INFO HostContext] Well known config file 'Credentials': '/Users/tjohnson/projects/pipelines/actions-runner/.credentials'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] CredFilePath: /Users/tjohnson/projects/pipelines/actions-runner/.credentials
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:04Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/tjohnson/projects/pipelines/actions-runner/.credentials_migrated'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] MigratedCredFilePath: /Users/tjohnson/projects/pipelines/actions-runner/.credentials_migrated
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:04Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:04Z INFO HostContext] Well known config file 'Service': '/Users/tjohnson/projects/pipelines/actions-runner/.service'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/tjohnson/projects/pipelines/actions-runner/.service
+[2024-03-24 02:30:04Z INFO CommandSettings] Flag 'help': 'False'
+[2024-03-24 02:30:04Z INFO CommandSettings] Flag 'version': 'False'
+[2024-03-24 02:30:04Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-03-24 02:30:04Z INFO CommandSettings] Flag 'check': 'False'
+[2024-03-24 02:30:04Z INFO CommandSettings] Command 'configure': 'True'
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE: |                       
+[2024-03-24 02:30:04Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE:                         |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-03-24 02:30:04Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-03-24 02:30:04Z INFO ConfigurationManager] ConfigureAsync
+[2024-03-24 02:30:04Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-03-24 02:30:04Z INFO ConfigurationStore] IsConfigured()
+[2024-03-24 02:30:04Z INFO ConfigurationStore] IsConfigured: False
+[2024-03-24 02:30:04Z INFO ConfigurationManager] Is configured: False
+[2024-03-24 02:30:04Z INFO CommandSettings] Arg 'url': 'https://github.com/tjohnson101/pipelines'
+[2024-03-24 02:30:04Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-03-24 02:30:04Z INFO CommandSettings] Arg 'token': '***'
+[2024-03-24 02:30:04Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-03-24 02:30:08Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (CCBB:8AFF:AF2FAF:125DC26:65FF902F)
+[2024-03-24 02:30:08Z INFO ConfigurationManager] Using V2 flow: False
+[2024-03-24 02:30:08Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-03-24 02:30:08Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:08Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-03-24 02:30:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:08Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-03-24 02:30:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:08Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-03-24 02:30:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:09Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:09Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:09Z INFO ConfigurationManager] Test Connection complete.
+[2024-03-24 02:30:09Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:09Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:09Z INFO HostContext] Well known config file 'RSACredentials': '/Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams'
+[2024-03-24 02:30:09Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-03-24 02:30:09Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams
+[2024-03-24 02:30:09Z INFO RSAFileKeyManager] Which: 'chmod'
+[2024-03-24 02:30:09Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2024-03-24 02:30:09Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:09Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper] Starting process:
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Working directory: '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper] Process started with process id 36741, waiting for process exit.
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-03-24 02:30:09Z INFO ProcessInvokerWrapper] Finished process 36741 with exit code 0, and elapsed time 00:00:00.0641397.
+[2024-03-24 02:30:09Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams
+[2024-03-24 02:30:09Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-03-24 02:30:09Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-03-24 02:30:09Z INFO PromptManager] ReadValue
+[2024-03-24 02:30:09Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-03-24 02:30:09Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-03-24 02:30:09Z INFO Terminal] READ LINE
+[2024-03-24 02:30:29Z INFO Terminal] Read value: ''
+[2024-03-24 02:30:29Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-03-24 02:30:29Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:29Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-03-24 02:30:29Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-03-24 02:30:29Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-03-24 02:30:29Z INFO CommandSettings] Arg 'name': ''
+[2024-03-24 02:30:29Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-03-24 02:30:29Z INFO PromptManager] ReadValue
+[2024-03-24 02:30:29Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-03-24 02:30:29Z INFO Terminal] WRITE: [press Enter for Thomass-MBP] 
+[2024-03-24 02:30:29Z INFO Terminal] READ LINE
+[2024-03-24 02:30:34Z INFO Terminal] Read value: ''
+[2024-03-24 02:30:34Z INFO PromptManager] Falling back to the default: 'Thomass-MBP'
+[2024-03-24 02:30:34Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:34Z INFO CommandSettings] Arg 'labels': ''
+[2024-03-24 02:30:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-03-24 02:30:34Z INFO PromptManager] ReadValue
+[2024-03-24 02:30:34Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'ARM64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-03-24 02:30:34Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-03-24 02:30:34Z INFO Terminal] READ LINE
+[2024-03-24 02:30:41Z INFO Terminal] Read value: ''
+[2024-03-24 02:30:41Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:41Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-03-24 02:30:41Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2024-03-24 02:30:41Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-03-24 02:30:41Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-03-24 02:30:41Z INFO ConfigurationStore] Saving OAuth credential @ /Users/tjohnson/projects/pipelines/actions-runner/.credentials
+[2024-03-24 02:30:41Z INFO ConfigurationStore] Credentials Saved.
+[2024-03-24 02:30:41Z INFO ConfigurationStore] HasCredentials()
+[2024-03-24 02:30:41Z INFO ConfigurationStore] stored True
+[2024-03-24 02:30:41Z INFO CredentialManager] GetCredentialProvider
+[2024-03-24 02:30:41Z INFO CredentialManager] Creating type OAuth
+[2024-03-24 02:30:41Z INFO CredentialManager] Creating credential type: OAuth
+[2024-03-24 02:30:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams
+[2024-03-24 02:30:41Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:41Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-03-24 02:30:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:41Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-03-24 02:30:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:41Z INFO RunnerServer] EstablishVssConnection
+[2024-03-24 02:30:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-03-24 02:30:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-03-24 02:30:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-03-24 02:30:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams
+[2024-03-24 02:30:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/tjohnson/projects/pipelines/actions-runner/.credentials_rsaparams
+[2024-03-24 02:30:42Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-03-24 02:30:42Z INFO CommandSettings] Arg 'work': ''
+[2024-03-24 02:30:42Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-03-24 02:30:42Z INFO PromptManager] ReadValue
+[2024-03-24 02:30:42Z INFO Terminal] WRITE: Enter name of work folder: 
+[2024-03-24 02:30:42Z INFO Terminal] WRITE: [press Enter for _work] 
+[2024-03-24 02:30:42Z INFO Terminal] READ LINE
+[2024-03-24 02:30:46Z INFO Terminal] Read value: ''
+[2024-03-24 02:30:46Z INFO PromptManager] Falling back to the default: '_work'
+[2024-03-24 02:30:46Z INFO ConfigurationStore] Saving runner settings.
+[2024-03-24 02:30:46Z INFO ConfigurationStore] Settings Saved.
+[2024-03-24 02:30:46Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:46Z INFO Terminal] WRITE LINE: 
+[2024-03-24 02:30:46Z INFO OsxServiceControlManager] Service name 'actions.runner.tjohnson101-pipelines.Thomass-MBP' display name 'GitHub Actions Runner (tjohnson101-pipelines.Thomass-MBP)' will be used for service configuration.
+[2024-03-24 02:30:46Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:46Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:46Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:46Z INFO HostContext] Well known directory 'Bin': '/Users/tjohnson/projects/pipelines/actions-runner/bin'
+[2024-03-24 02:30:46Z INFO HostContext] Well known directory 'Root': '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:46Z INFO UnixUtil] Which: 'chmod'
+[2024-03-24 02:30:46Z INFO UnixUtil] Location: '/bin/chmod'
+[2024-03-24 02:30:46Z INFO UnixUtil] Running /bin/chmod 755 "/Users/tjohnson/projects/pipelines/actions-runner/svc.sh"
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper] Starting process:
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/tjohnson/projects/pipelines/actions-runner/svc.sh"'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Working directory: '/Users/tjohnson/projects/pipelines/actions-runner'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper] Process started with process id 36827, waiting for process exit.
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-03-24 02:30:47Z INFO ProcessInvokerWrapper] Finished process 36827 with exit code 0, and elapsed time 00:00:00.0528458.
+[2024-03-24 02:30:47Z INFO Listener] Runner execution has finished with return code 0
